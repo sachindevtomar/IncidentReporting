@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fgiet.incidentreporting.Users.Tab1">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+
+            <Button
+                android:id="@+id/btn_choose_image"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/phone"
+                android:layout_gravity="left"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_background"
+                android:drawableLeft="@drawable/selector_ic_add_a_photo_white_24dp"
+                android:drawablePadding="10dp"
+                android:padding="5dp"
+                android:scaleType="fitStart"
+                android:text="@string/select_image"
+                android:textColor="@color/bg1_text"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_choose_image"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <FrameLayout
+                    android:id="@+id/frame1"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="0dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/customView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@color/authui_colorActivated" />
+
+                    <ImageButton
+                        android:id="@+id/button1"
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="right|top"
+                        android:layout_marginRight="-6dp"
+                        android:layout_marginTop="-8dp"
+                        android:background="@color/colorTrans"
+                        app:srcCompat="@drawable/ic_cancel_black_24dp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frame2"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="0dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/customView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@color/authui_colorActivated" />
+
+                    <ImageButton
+                        android:id="@+id/button2"
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="right|top"
+                        android:layout_marginRight="-6dp"
+                        android:layout_marginTop="-8dp"
+                        android:background="@color/colorTrans"
+                        app:srcCompat="@drawable/ic_cancel_black_24dp" />
+                </FrameLayout>
+
+                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/frame3"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="0dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/customView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@color/authui_colorActivated" />
+
+                    <ImageButton
+                        android:id="@+id/button3"
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="right|top"
+                        android:layout_marginRight="-6dp"
+                        android:layout_marginTop="-8dp"
+                        android:background="@color/colorTrans"
+                        app:srcCompat="@drawable/ic_cancel_black_24dp" />
+                </FrameLayout>
+
+                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/frame4"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="0dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/customView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@color/authui_colorActivated" />
+
+                    <ImageButton
+                        android:id="@+id/button4"
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="right|top"
+                        android:layout_marginRight="-6dp"
+                        android:layout_marginTop="-8dp"
+                        android:background="@color/colorTrans"
+                        app:srcCompat="@drawable/ic_cancel_black_24dp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frame5"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="0dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/customView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@color/authui_colorActivated" />
+
+                    <ImageButton
+                        android:id="@+id/button5"
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="right|top"
+                        android:layout_marginRight="-6dp"
+                        android:layout_marginTop="-8dp"
+                        android:background="@color/colorTrans"
+                        app:srcCompat="@drawable/ic_cancel_black_24dp" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/linearLayoutEmp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linear"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/input_output"
+                    android:layout_marginBottom="10dp">
+                    <Spinner
+                        android:id="@+id/spinnerType1"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/input_output"
+                    android:padding="10dp">
+
+                    <com.google.android.gms.maps.MapView
+                        android:id="@+id/map"
+                        android:layout_width="match_parent"
+                        android:layout_height="169dp">
+
+
+                    </com.google.android.gms.maps.MapView>
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/map"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginTop="10dp"
+                    android:drawableRight="@drawable/selector_ic_voice_black_24dp"
+                    android:ems="10"
+                    android:hint="@string/description_optional"
+                    android:inputType="textMultiLine"
+                    android:maxLines="5"
+                    android:overScrollMode="always"
+                    android:padding="10dp"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbars="vertical"
+                    android:textColor="@color/bg1"
+                    android:textColorHint="@color/bg1_hint" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="5dp"
+        android:layout_weight="1.34"
+        app:srcCompat="@drawable/ic_send_white_24dp" />
+</RelativeLayout>

@@ -1,0 +1,167 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="400dp
+"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.3"
+                    android:drawableLeft="@drawable/selector_ic_home_green_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:text="Address"/>
+
+                <TextView
+                    android:id="@+id/contact_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:text="Kanha Upvan Industrial Area, Lucknow, Uttar Pradesh-226023" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.3"
+                    android:gravity="center_vertical"
+                    android:drawableLeft="@drawable/selector_ic_email_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:text="Email" />
+
+                <TextView
+                    android:id="@+id/contact_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:text="jeevaashraya@gmail.com" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="2"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.3"
+                    android:drawableLeft="@drawable/selector_ic_link_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:text="Web Link" />
+
+                <TextView
+                    android:id="@+id/contact_weblink"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:gravity="center_vertical"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:text="https://www.jeevaashraya.org" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="2"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.3"
+                    android:drawablePadding="5dp"
+                    android:drawableLeft="@drawable/selector_ic_link_black_24dp"
+                    android:text="Fb Link"
+                    android:gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/contact_fblink"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:gravity="center_vertical"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:text="https://m.facebook.com/jeevaashraya/"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="2"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.3"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:drawableLeft="@drawable/selector_ic_call_black_24dp"
+                    android:text="Contact No" />
+
+                <TextView
+                    android:id="@+id/contact_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:gravity="center_vertical"
+                    android:clickable="true"
+                    android:text="08009392222"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp" />
+
+</LinearLayout>

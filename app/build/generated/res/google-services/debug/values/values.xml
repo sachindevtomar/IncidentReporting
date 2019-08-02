@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">217332432559-afm9o9s8ohkh8j0e689e8dk0pnvcm5ma.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://incidentreporting-97dd1.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">217332432559</string>
+    <string name="google_api_key" translatable="false">AIzaSyBJzgNHTQbMDDZgPQXeSYg-i2Z1cTdJMzE</string>
+    <string name="google_app_id" translatable="false">1:217332432559:android:b9f76f8fdbdd5ab2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBJzgNHTQbMDDZgPQXeSYg-i2Z1cTdJMzE</string>
+    <string name="google_storage_bucket" translatable="false">incidentreporting-97dd1.appspot.com</string>
+    <string name="project_id" translatable="false">incidentreporting-97dd1</string>
+</resources>

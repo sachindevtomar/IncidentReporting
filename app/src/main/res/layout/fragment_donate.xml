@@ -1,0 +1,141 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fgiet.incidentreporting.DonateFragment"
+    android:background="@drawable/donationback"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <WebView
+        android:id="@+id/wv_donate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2000"
+        android:layout_margin="20dp"
+        >
+        <Button
+            android:id="@+id/payEazy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EazyPay"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textColor="@color/bg1_text"
+            android:background="@drawable/button_background1_trans"
+            android:drawableLeft="@drawable/selector_eazypay"
+            android:paddingLeft="10dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="0dp">
+
+            <TextView
+                android:id="@+id/tvText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="OR"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="0dp"
+                android:layout_toLeftOf="@id/tvText"
+                android:background="@color/colorAccent" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="0dp"
+                android:layout_toRightOf="@id/tvText"
+                android:background="@color/colorAccent" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/payTm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PayTm"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/bg1_text"
+            android:background="@drawable/button_background1_trans"
+            android:drawableLeft="@drawable/selector_paytm"
+            android:paddingLeft="10dp"
+            />
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp">
+
+        <TextView
+            android:id="@+id/tvText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:text="OR"
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="0dp"
+            android:layout_toLeftOf="@id/tvText1"
+            android:background="@color/colorAccent" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="0dp"
+            android:layout_toRightOf="@id/tvText1"
+            android:background="@color/colorAccent" />
+    </RelativeLayout>
+
+        <Button
+            android:id="@+id/donate_medicine_and_food"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medicine and Food"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textColor="@color/bg1_text"
+            android:background="@drawable/button_background1_trans"
+            android:drawableLeft="@drawable/selector_medicine"
+            android:paddingLeft="10dp"
+            />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

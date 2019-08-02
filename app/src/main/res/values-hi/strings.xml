@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_maps">Skip</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="home">Report an Incident</string>
+    <string name="settings">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="hindi">हिंदी</string>
+    <string name="share_on_facebook">Share on Facebook</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_login_signup">Login Signup</string>
+    <string name="employee_id">Employee ID</string>
+    <string name="title_activity_emp">EmpActivity</string>
+    <string name="Forgot">Forgot Password</string>
+    <string name="title_activity_emp_main">EmpMain</string>
+    <string name="title_activity_request">RequestActivity</string>
+    <string name="title_workers">Workers</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip1">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title"></string>
+    <string name="slide_1_desc"></string>
+
+    <string name="slide_2_title">We For Animals</string>
+    <string name="slide_2_desc">Remember there is no such thing as a small act of kindness</string>
+
+    <string name="slide_3_title">Rescue Animals \n Be a Hero</string>
+    <string name="slide_3_desc">Give them all the love they deserve</string>
+
+    <string name="slide_4_title">Support Us \n Support Animal</string>
+    <string name="slide_4_desc">They can\'t speak for themself , we are their voice</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="newsfeedpost">News Feed</string>
+
+    <string-array name="donate_category">
+        <item>Select Category For Donation</item>
+        <item>Calcium</item>
+        <item>Multivitamins</item>
+        <item>Dewormers</item>
+        <item>Anti tick Shampo</item>
+        <item>Anti tick Spray</item>
+        <item>Medicated Shampoo</item>
+        <item>Liver Tonics</item>
+        <item>Digestive Support</item>
+        <item>Joint Support</item>
+    </string-array>
+
+    <string name="english">English</string>
+    <string name="app_name">जीव आश्रय</string>
+    <string name="skip">लॉगिन बिना जारी रखें >></string>
+    <string name="forgot_password">पासवर्ड भूल जाने पर</string>
+    <string name="password">पासवर्ड</string>
+    <string name="contact">संपर्क नंबर</string>
+    <string name="confirm_password">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="name">नाम</string>
+    <string name="email">ईमेल</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="signup">साइन अप करें</string>
+    <string name="employee_signup">कर्मचारी साइन-अप</string>
+    <string name="verify">सत्यापित करें</string>
+    <string name="enter_serial_key">गुप्त कुंजी दर्ज करें</string>
+    <string name="verification">सत्यापन</string>
+    <string name="dob">जन्म की तारीख</string>
+    <string name="title_activity_home">घटना की रिपोर्ट करें</string>
+    <string name="logout">लोग आउट</string>
+    <string name="about_us">हमारे बारे में</string>
+    <string name="contact_us">हमसे संपर्क करें</string>
+    <string name="register">रजिस्टर</string>
+    <string name="enter_email_address">ईमेल पता दर्ज</string>
+    <string name="verification_link_will_be">* सत्यापन लिंक आपके पंजीकृत ईमेल पते पर भेज दिया जाएगा</string>
+    <string name="send">भेजो</string>
+    <string name="select_image">तस्वीर का चयन करें</string>
+    <string name="description_optional">विवरण (ऐच्छिक)</string>
+    <string name="incident_reporting">घटना की रिपोर्टिंग</string>
+    <string name="from_camera">कैमरे से</string>
+    <string name="from_gallery">गैलरी से</string>
+    <string name="report_an_incident">घटना की रिपोर्ट करें</string>
+    <string name="incident">घटना</string>
+    <string name="tracker">ट्रैकर</string>
+    <string name="newsfeed">न्यूज़ फीड</string>
+    <string name="share">शेयर करें</string>
+    <string name="donate">दान करें</string>
+    <string name="help">मदद</string>
+    <string name="enter_password">पासवर्ड दर्ज करें</string>
+    <string name="email_is_not_verified">ईमेल की पुष्टि नहीं हुई</string>
+    <string name="error_in_login">लॉगिन में त्रुटि, पुनः प्रयास करें</string>
+    <string name="you_are_already_signed_up_with_this_email">आप पहले से ही इस ईमेल के साथ साइन अप हैं</string>
+    <string name="no_internet_connection">इंटरनेट कनेक्शन नहीं है</string>
+    <string name="enter_valid_email_address">मान्य ईमेल पता दर्ज करें</string>
+    <string name="password_reset_link">पासवर्ड रीसेट लिंक आपके ईमेल पर भेजा गया है</string>
+    <string name="sending_failed_check_your_connection">भेजना विफल रहा, अपना कनेक्शन जांचें</string>
+    <string name="please_click_back_again">बाहर निकलने के लिए कृपया वापस फिर से क्लिक करें</string>
+    <string name="wait_for_some_time">कुछ समय तक प्रतीक्षा करें</string>
+    <string name="login_with_google">गूगल के साथ लॉगिन</string>
+    <string name="wait_for_server_response">सर्वर प्रतिसाद की प्रतीक्षा करें</string>
+    <string name="entered_key_is_wrong">दर्ज की गई कुंजी गलत है</string>
+    <string name="key_already_used">कुंजी पहले ही इस्तेमाल हो चुकी है</string>
+    <string name="verify_your_email_address">अपने ईमेल पते की पुष्टि करें</string>
+    <string name="successfully_registered">पंजीकरण सफलतापूर्वक हो गया है</string>
+    <string name="signing_up">साइन अप हो रहा है...</string>
+    <string name="enter_valid_mobile_number">वैध मोबाइल नंबर दर्ज करें</string>
+    <string name="confirm_password_and_password_should_be_same">कन्फर्म पासवर्ड और पासवर्ड समान होना चाहिए</string>
+    <string name="every_field_is_required">हर इनपुट फ़ील्ड की आवश्यकता है</string>
+    <string name="proceed">आगे बढ़ें</string>
+    <string name="select_maximum_5_images">अधिकतम 5 फ़ोटो चुनें</string>
+    <string name="please_turn_on_your_location">कृपया अपनी लोकेसन को चालू करें</string>
+    <string name="say_something_and_for_clearing_text">कुछ कहें और बॉक्स में पाठ को साफ करने के लिए कहें \'क्लिअर ओल\'</string>
+    <string name="wait_for_location">लोकेसन की प्रतीक्षा करें</string>
+    <string name="enter_phone_number">फोन नंबर दर्ज करें</string>
+    <string name="uploading_image">फ़ोटो अपलोड हो रही है...</string>
+    <string name="uploading_failed">अपलोड करना विफल रहा है</string>
+    <string name="upload_done">अपलोड किया है</string>
+    <string name="select_atleast_one_image">कम से कम एक तस्वीर का चयन करें</string>
+    <string name="locate_us">हमें पता लगाएँ</string>
+    <string name="enquiry">पूछताछ</string>
+    <string name="subject">विषय</string>
+    <string name="place_your_query_here">अपनी जांच यहाँ रखें</string>
+    <string name="i_am_in_favour_of_animal_rights_as_well_as_human_rights_that_is_the_way_of_a_whole_human_being_abraham_lincoln">" मैं पशु अधिकारों के साथ ही मानव अधिकारों के पक्ष में हूं। यह एक संपूर्ण इंसान का तरीका है। "- अब्राहम लिंकन</string>
+    <string name="who_are_we">हम कौन है ?</string>
+    <string name="after_witnessing_the">भटका पशुओं की अपमानजनक परिस्थितियों को देखने के बाद, जो पर्याप्त भोजन के बिना अस्वस्थ शर्तों में रहने के लिए मजबूर हैं, यह पशु कल्याण के प्रति समर्पित संगठन बनाने और लखनऊ, भारत में पशु बचाव शुरू करने के लिए एक गहन आवश्यकता बन गई। हम एक तर्कसंगत दिमाग के साथ धन्य हैं जो सही और गलत के बीच अंतर करने में सक्षम है। हमें एक उपहार के साथ भी संपन्न किया जाता है कि कोई भी अन्य प्रजाति के साथ आशीष नहीं होती है, भाषण का उपहार। हमारे दुखों और भावनाओं को अभिव्यक्त करने के लिए हमें शब्दों की शक्ति प्रदान की जाती है लेकिन दुर्भाग्य से, हमारे सहयोगी म्यूट साथी इन एहसान से वंचित हुए हैं। वे चुपचाप उन सभी गलतियों और उनसे हुई अनैतिकता को खा लेते हैं। श्रेष्ठ दौड़ के सदस्य होने के नाते, उनके लिए बोलने की हमारी नैतिक जिम्मेदारी है। एक कुशल मन के साथ उपलब्ध कराया जा रहा है, यह हमारा एकमात्र कर्तव्य है कि उन्हें खाना, आश्रय, दवा जैसी बुनियादी सुविधाओं को प्रस्तुत करना है। हम लखनऊ, भारत में पशु बचाव कर रहे हैं जो शहर के आवारा जानवरों के लिए है। बुनियादी सुविधाओं के अलावा, जानवर प्रेम और करुणा की तलाश भी करते हैं। वे मनुष्यों से गर्मी और सहानुभूति की लालसा रखते हैं उन्हें एक संगठन की आवश्यकता होती है जो न केवल उन्हें रहने के लिए एक छत, बल्कि आवश्यक देखभाल और साहचर्य भी प्रदान करेगा। जीवन आश्रय, कान्हा उपवन एक पशु आश्रय है जो हजारों जानवरों को छत देती है। हमारा सबसे हालिया कार्यक्रम लखनऊ में कुत्ते को गोद लेने को बढ़ावा देता है।</string>
+    <string name="join_us_as">हमारे साथ जुड़ें!</string>
+    <string name="a_member">एक सदस्य</string>
+    <string name="you_can_extend_your_helping_hand_to_them_by_being_a_member_of_an_organisation_who_is_exclusively_dedicated_towards_the_welfare_of_these_animals">आप उन संगठनों के सदस्य होने के द्वारा अपने हाथों को बढ़ा सकते हैं जो विशेष रूप से इन जानवरों के कल्याण के प्रति समर्पित हैं।</string>
+    <string name="a_volunteer">एक स्वयंसेवक</string>
+    <string name="a_volunteer_is_a_warm_hearted_and_compassionate_person_who_freely_undertakes_a_task_without_any_monetary_desires_or_in_lieu_of_eminence_in_the_society">एक स्वयंसेवी एक गर्मजोशीपूर्ण और दयालु व्यक्ति है, जो किसी भी मौद्रिक इच्छाओं के बिना या समाज में श्रेष्ठता के बदले एक काम करता है।</string>
+    <string name="a_donor">एक दाता</string>
+    <string name="our_organisation_always_welcomes_donors_with_utmost_enthusiasm_and_invigorates_more_and_more_people_to_come_forward_and_make_a_change_in_the_life_of_these_animals">हमारा संगठन हमेशा उत्साह के साथ दाताओं का स्वागत करता है और अधिक से अधिक लोगों को आगे आने और इन जानवरों के जीवन में बदलाव करने के लिए सक्षम बनाता है।</string>
+    <string name="rescue_and_recoveries">बचाव और पुनर्प्राप्ति !</string>
+    <string name="calf_s_treatment">बछड़ा का इलाज</string>
+    <string name="only_a_life_lived_for_others_is_a_life_worth_living_there_is_no_point_of_living_if_we_are_leading_a_life_fulfilling_our_own_needs_and_desires_a_life_which_is_immortal_is_the_one_which_is_devoted_to_the_service_of_all_the_life_forms_our_organisation_has_been_working_unendingly_for_the_prosperity_of_the_stray_animals_we_are_doing_all_we_can_for_the_sake_of_the_animals_who_are_not_blessed_with_the_gift_of_speech_a_calf_has_been_found_having_an_injury_in_his_hoof_he_wasn_t_able_to_walk_properly_currently_he_is_being_treated_with_all_the_suitable_medications_by_our_veterinary_team_we_wish_the_poor_lad_a_speedy_recovery_and_a_healthy_life">केवल एक जीवन दूसरों के लिए जीवित है, यह एक जीवन जीने का जीवन है। जीने का कोई मतलब नहीं है, अगर हम अपनी ज़िंदगी और इच्छाओं को पूरा करने के लिए जीवन जी रहे हैं एक जीवन जो अमर है वह एक है जो सभी जीवन रूपों की सेवा के लिए समर्पित है। हमारा संगठन आवारा जानवरों की समृद्धि के लिए अंतहीन काम कर रहा है। हम जानवरों की खातिर हम सब कर सकते हैं, जो भाषण के उपहार से आशीष नहीं हैं। एक बछड़ा उसके खुर में एक चोट होने पाया गया है। वह ठीक से चलने में सक्षम नहीं था। वर्तमान में उनका इलाज हमारी पशु चिकित्सा टीम द्वारा सभी उपयुक्त दवाओं के साथ किया जा रहा है। हम गरीब बालक को तेजी से वसूली और एक स्वस्थ जीवन चाहते हैं।</string>
+    <string name="bull_s_treatment">बैल का उपचार</string>
+    <string name="our_wise_ancestors_believed_that_the_best_method_to_find_yourself_is_to_lose_yourself_for_the_service_of_the_needy_many_people_in_the_contrast_to_the_multitudes_devote_their_life_for_serving_the_divine_forms_of_life_a_kind_hearted_person_informed_us_about_the_bull_having_a_serious_hump_injury_on_the_dot_intimation_enabled_us_to_save_the_life_of_the_poor_bull_the_bull_is_currently_under_keen_observation_of_our_skilled_veterinary_crew_the_requisite_medication_is_being_provided_to_the_stranded_bull_the_wound_has_been_so_far_observed_to_be_healing_very_speedily_we_all_need_your_prayers_for_the_complete_recovery_of_the_bull_god_bless_him_as_well_as_the_person_who_gave_him_another_chance_to_live_by_rescuing_him_from_the_site_of">हमारे बुद्धिमान पूर्वजों का मानना ​​था कि खुद को खोजने का सबसे अच्छा तरीका है कि आप को जरूरतमंदों की सेवा के लिए खुद को खोना है। बहुत से लोग, बहुसंख्यक के विपरीत, जीवन के दिव्य रूपों की सेवा के लिए अपना जीवन समर्पित करते हैं। एक दयालु व्यक्ति ने हमें बुल के बारे में सूचित किया था जिसमें गंभीर हंसी की चोट थी। डॉट सूचना पर हम गरीब बैल के जीवन को बचाने के लिए सक्षम थे। बैल वर्तमान में हमारे कुशल पशु चिकित्सक के गहन निरीक्षण में है फंसे हुए बैल को आवश्यक दवाएं प्रदान की जा रही हैं इस घाव को अब तक बहुत तेजी से उपचार करने के लिए मनाया गया है। हम सभी को बुल की पूरी वसूली के लिए आपकी प्रार्थना की आवश्यकता है भगवान उसे आशीर्वाद देता है और साथ ही उस व्यक्ति को जिसने उसे जीने का एक मौका दिया जो उसे उस जगह से बचाता है ...</string>
+    <string name="what_we_have">हमारे पास क्या है ?</string>
+    <string name="adoption">दत्तक ग्रहण</string>
+    <string name="shelter_animals">आश्रय पशु</string>
+    <string name="abc_programme">एबीसी कार्यक्रम</string>
+    <string name="rescues_cases">बचाव केस</string>
+    <string name="incident_section">घटना अनुभाग:</string>
+    <string name="tracker_section">ट्रैकर अनुभाग:</string>
+    <string name="newsfeed_section">न्यूज़ फीड अनुभाग:</string>
+    <string name="donate_section">दान अनुभाग:</string>
+    <string name="about_us_section">हमारे बारे में अनुभाग:</string>
+    <string name="contact_us_section">हमसे संपर्क करें अनुभाग:</string>
+    <string name="_1_in_this_section_you_can_send_multiple_images_maximum_5_of_an_injured_animal_by_your_camera_or_gallery">1. इस खंड में, आप अपने कैमरे या गैलरी से एक घायल पशु के एकाधिक चित्र (अधिकतम 5) भेज सकते हैं।</string>
+    <string name="_2_you_have_to_wait_until_your_current_location_is_not_shown_in_the_map">2. जब तक आपका वर्तमान स्थान नक्शे में नहीं दिखाया जाता है तब तक आपको इंतजार करना होगा।</string>
+    <string name="_3_you_may_add_description_in_the_description_box">3. आप विवरण बॉक्स में विवरण जोड़ सकते हैं।</string>
+    <string name="_1_in_this_section_you_may_see_the_status_of_reported_incident_that_you_have_sent">1. इस खंड में, आप रिपोर्ट की गई घटना की स्थिति देख सकते हैं जो आपने भेजी है।</string>
+    <string name="_2_you_may_click_on_the_reported_incident_and_see_the_details_of_that_incident">2. आप रिपोर्ट की गई घटना पर क्लिक कर सकते हैं और उस घटना के विवरण देख सकते हैं।</string>
+    <string name="_3_you_may_download_the_images_that_you_have_sent_and_see_them_in_your_internal_storage">3. आप उन छवियों को डाउनलोड कर सकते हैं जिन्हें आपने भेजा है और उन्हें अपने आंतरिक संग्रहण में देखें।</string>
+    <string name="for_more_information_on_the_different_parts_of_this_application_touch_one_of_the_images_below">इस एप्लिकेशन के विभिन्न हिस्सों के बारे में अधिक जानकारी के लिए, नीचे दिए गए चित्रों में से एक को स्पर्श करें:</string>
+    <string name="_1_in_this_section_you_can_take_glimpse_of_the_news_related_to_jeev_aashraya">1. इस खंड में, आप जीवन आश्रय से संबंधित खबरों की झलक देख सकते हैं।</string>
+    <string name="_2_you_can_see_images_and_description_by_clicking_more_option">2. आप अधिक विकल्प क्लिक करके चित्र और विवरण देख सकते हैं।</string>
+    <string name="through_this_section_you_can_support_jeev_aashraya_by_donating_money">इस खंड के माध्यम से आप पैसा दान करके \'जीव आश्रय \' का समर्थन कर सकते हैं।</string>
+    <string name="in_this_section_you_can_know_more_about_jeev_aashraya">इस खंड में, आप जीव आश्रय के बारे में अधिक जान सकते हैं</string>
+    <string name="_1_in_this_section_you_can_directly_contact_us">1. इस खंड में, आप हमसे सीधे संपर्क कर सकते हैं।</string>
+    <string name="_2_you_can_also_send_your_queries_we_will_respond_at_the_earliest">2. आप अपने प्रश्न भी भेज सकते हैं। हम जल्द से जल्द जवाब देंगे</string>
+
+</resources>

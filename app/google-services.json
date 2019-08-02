@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "217332432559",
+    "firebase_url": "https://incidentreporting-97dd1.firebaseio.com",
+    "project_id": "incidentreporting-97dd1",
+    "storage_bucket": "incidentreporting-97dd1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217332432559:android:b9f76f8fdbdd5ab2",
+        "android_client_info": {
+          "package_name": "com.fgiet.incidentreporting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217332432559-g4biau8qdqbd1qi47fsdv79j6d6pltaf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fgiet.incidentreporting",
+            "certificate_hash": "802a5aee3440dcbc97f7e9e5525ab734a8178c55"
+          }
+        },
+        {
+          "client_id": "217332432559-afm9o9s8ohkh8j0e689e8dk0pnvcm5ma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJzgNHTQbMDDZgPQXeSYg-i2Z1cTdJMzE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217332432559-afm9o9s8ohkh8j0e689e8dk0pnvcm5ma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

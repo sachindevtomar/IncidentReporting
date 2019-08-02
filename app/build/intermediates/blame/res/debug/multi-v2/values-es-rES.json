@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Admin\\AndroidStudioProjects\\IncidentReporting\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rES\\values-es-rES.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\e9dacbdd30e91ee8c4afcd521a587241\\res\\values-es-rES\\values-es-rES.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,185,297,434,532,600,672,733,807,889,987,1059,1131,1222,1327,1392,1461,1617",
+                        "endColumns": "129,111,136,97,67,71,60,73,81,97,71,71,90,104,64,68,155,61",
+                        "endOffsets": "180,292,429,527,595,667,728,802,884,982,1054,1126,1217,1322,1387,1456,1612,1674"
+                    }
+                }
+            ]
+        }
+    ]
+}

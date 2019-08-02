@@ -1,0 +1,186 @@
+<resources>
+    <string name="title_activity_maps">Skip</string>
+
+
+    <string name="app_name">Accident reporting</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="home">Report an Incident</string>
+    <string name="about_us">About Us</string>
+    <string name="settings">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="share">Share</string>
+    <string name="donate">Donate</string>
+    <string name="newsfeed">News Feed</string>
+    <string name="english">English</string>
+    <string name="password">Password</string>
+    <string name="contact">Contact Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="help">Help</string>
+    <string name="hindi">हिंदी</string>
+    <string name="share_on_facebook">Share on Facebook</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_login_signup">Login Signup</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign-up</string>
+    <string name="employee_signup">Employee Signup</string>
+    <string name="skip">Continue without login >></string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="verify">Verify</string>
+    <string name="enter_serial_key">Enter secret key</string>
+    <string name="verification">Verification</string>
+    <string name="employee_id">Employee ID</string>
+    <string name="dob">Date of Birth</string>
+    <string name="title_activity_home">Report an Incident</string>
+    <string name="title_activity_emp">EmpActivity</string>
+    <string name="logout">Logout</string>
+    <string name="description_optional">Description (Optional)</string>
+    <string name="Forgot">Forgot Password</string>
+    <string name="title_activity_emp_main">EmpMain</string>
+    <string name="title_activity_request">RequestActivity</string>
+    <string name="title_workers">Workers</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip1">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title"></string>
+    <string name="slide_1_desc"></string>
+
+    <string name="slide_2_title">We For Animals</string>
+    <string name="slide_2_desc">Remember there is no such thing as a small act of kindness</string>
+
+    <string name="slide_3_title">Rescue Animals \n Be a Hero</string>
+    <string name="slide_3_desc">Give them all the love they deserve</string>
+
+    <string name="slide_4_title">Support Us \n Support Animal</string>
+    <string name="slide_4_desc">They can\'t speak for themself , we are their voice</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="register">Register</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="verification_link_will_be">* Verification link will be send to your registered email address</string>
+    <string name="send">Send</string>
+    <string name="select_image">Select Image</string>
+    <string name="incident_reporting">Incident Reporting</string>
+    <string name="from_camera">From Camera</string>
+    <string name="from_gallery">From Gallery</string>
+    <string name="report_an_incident">Report an Incident</string>
+    <string name="incident">Incident</string>
+    <string name="tracker">Tracker</string>
+    <string name="newsfeedpost">News Feed</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="email_is_not_verified">Email is not verified</string>
+    <string name="error_in_login">Error in login, Try again</string>
+    <string name="you_are_already_signed_up_with_this_email">You are already signed up with this email</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="enter_valid_email_address">Enter valid Email Address</string>
+    <string name="password_reset_link">Password reset link has sent to your Email</string>
+    <string name="sending_failed_check_your_connection">Sending failed, Check your connection</string>
+    <string name="please_click_back_again">Please click BACK again to exit</string>
+    <string name="wait_for_some_time">Wait for some time</string>
+    <string name="wait_for_server_response">Wait for server response</string>
+    <string name="entered_key_is_wrong">Entered key is wrong</string>
+    <string name="key_already_used">Key already used</string>
+    <string name="nearby_places">Nearby Police Station</string>
+    <string name="verify_your_email_address">Verify your email address</string>
+    <string name="successfully_registered">Successfully Registered</string>
+    <string name="signing_up">Signing up...</string>
+    <string name="enter_valid_mobile_number">Enter valid mobile number</string>
+    <string name="confirm_password_and_password_should_be_same">Confirm Password and Password should be same</string>
+    <string name="every_field_is_required">Every field is required</string>
+    <string name="proceed">Proceed</string>
+    <string name="select_maximum_5_images">Select Maximum 5 images</string>
+    <string name="please_turn_on_your_location">Please Turn On your Location</string>
+    <string name="say_something_and_for_clearing_text">Say Something and for clearing text in the box say \'clear all\'</string>
+    <string name="wait_for_location">Wait for location</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="uploading_image">Uploding image...</string>
+    <string name="uploading_failed">Uploading Failed</string>
+    <string name="upload_done">Upload Done</string>
+    <string name="select_atleast_one_image">Select atleast one image</string>
+    <string name="locate_us">Locate Us</string>
+    <string name="enquiry">Enquiry</string>
+    <string name="subject">Subject</string>
+    <string name="place_your_query_here">Place Your Query Here</string>
+    <string name="i_am_in_favour_of_animal_rights_as_well_as_human_rights_that_is_the_way_of_a_whole_human_being_abraham_lincoln">“I am in favour of animal rights as well as human rights. That is the way of a whole human being.” -Abraham Lincoln</string>
+    <string name="who_are_we">Who Are We ?</string>
+    <string name="after_witnessing_the">After witnessing the degrading conditions of stray animals, who are forced to live in unhygienic conditions without sufficient food, it became an earnest need to form an organization dedicated towards the animal welfare and start animal rescue in Lucknow, India. We are blessed with a rational mind that is capable enough to differentiate between right and wrong. We are also endowed with a gift that no other species is blessed with, the gift Of Speech. We are granted the power of words to express our sufferings and feeling. But unfortunately, our fellow mute companions have been deprived from these favours. They silently devour all the wrongs and injustices caused to them. Being the member of the superior race, it’s our moral responsibility to speak for them. Being provided with a resourceful mind, it’s our sole duty to furnish them with the basic amenities like food, shelter, medication, etc. We are doing animal rescue in Lucknow, India which is for the stray animals of the city. Apart from the basic amenities, animals also look for love and compassion. They crave for warmth and empathy from human beings. They need an organization which will not only provide them a roof to live, but also with the necessary care and companionship. Jeev Aashraya, Kanha Upvan is an animal shelter which gives a roof to thousands of animals. Our most recent program promotes dog adoption in Lucknow.</string>
+    <string name="join_us_as">Join Us As!</string>
+    <string name="a_member">A Member</string>
+    <string name="you_can_extend_your_helping_hand_to_them_by_being_a_member_of_an_organisation_who_is_exclusively_dedicated_towards_the_welfare_of_these_animals">You can extend your helping hand to them by being a member of an organisation who is exclusively dedicated towards the welfare of these animals.</string>
+    <string name="a_volunteer">A Volunteer</string>
+    <string name="a_volunteer_is_a_warm_hearted_and_compassionate_person_who_freely_undertakes_a_task_without_any_monetary_desires_or_in_lieu_of_eminence_in_the_society">A Volunteer is a warm hearted and compassionate person, who freely undertakes a task without any monetary desires or in lieu of eminence in the society.</string>
+    <string name="a_donor">A Donor</string>
+    <string name="our_organisation_always_welcomes_donors_with_utmost_enthusiasm_and_invigorates_more_and_more_people_to_come_forward_and_make_a_change_in_the_life_of_these_animals">Our organisation always welcomes donors with utmost enthusiasm and invigorates more and more people to come forward and make a change in the life of these animals.</string>
+    <string name="rescue_and_recoveries">Rescue and Recoveries !</string>
+    <string name="calf_s_treatment">Calf’s Treatment</string>
+    <string name="only_a_life_lived_for_others_is_a_life_worth_living_there_is_no_point_of_living_if_we_are_leading_a_life_fulfilling_our_own_needs_and_desires_a_life_which_is_immortal_is_the_one_which_is_devoted_to_the_service_of_all_the_life_forms_our_organisation_has_been_working_unendingly_for_the_prosperity_of_the_stray_animals_we_are_doing_all_we_can_for_the_sake_of_the_animals_who_are_not_blessed_with_the_gift_of_speech_a_calf_has_been_found_having_an_injury_in_his_hoof_he_wasn_t_able_to_walk_properly_currently_he_is_being_treated_with_all_the_suitable_medications_by_our_veterinary_team_we_wish_the_poor_lad_a_speedy_recovery_and_a_healthy_life">Only a life lived for others, is a life worth living. There is no point of living, if we are leading a life fulfilling our own needs and desires. A life which is immortal is the one which is devoted to the service of all the life forms. Our organisation has been working unendingly for the prosperity of the stray animals. We are doing all we can for the sake of the animals, who are not blessed with the gift of speech. A calf has been found having an injury in his hoof. He wasn’t able to walk properly. Currently he is being treated with all the suitable medications, by our veterinary team. We wish the poor lad a speedy recovery and a healthy life..</string>
+    <string name="bull_s_treatment">Bull’s Treatment</string>
+    <string name="our_wise_ancestors_believed_that_the_best_method_to_find_yourself_is_to_lose_yourself_for_the_service_of_the_needy_many_people_in_the_contrast_to_the_multitudes_devote_their_life_for_serving_the_divine_forms_of_life_a_kind_hearted_person_informed_us_about_the_bull_having_a_serious_hump_injury_on_the_dot_intimation_enabled_us_to_save_the_life_of_the_poor_bull_the_bull_is_currently_under_keen_observation_of_our_skilled_veterinary_crew_the_requisite_medication_is_being_provided_to_the_stranded_bull_the_wound_has_been_so_far_observed_to_be_healing_very_speedily_we_all_need_your_prayers_for_the_complete_recovery_of_the_bull_god_bless_him_as_well_as_the_person_who_gave_him_another_chance_to_live_by_rescuing_him_from_the_site_of">Our wise ancestors believed that the best method to find yourself is to lose yourself for the service of the needy. Many people, in the contrast to the multitudes, devote their life for serving the divine forms of life. A Kind hearted person informed us about the bull having a serious hump injury. On the dot intimation enabled us to save the life of the poor bull. The bull is currently under keen observation of our skilled veterinary crew. The requisite medication is being provided to the stranded bull. The wound has been so far observed to be healing very speedily. We all need your prayers for the complete recovery of the bull. God bless him as well as the person who gave him another chance to live by rescuing him from the site of...</string>
+    <string name="what_we_have">What We Have ?</string>
+    <string name="adoption">Adoption</string>
+    <string name="shelter_animals">Shelter Animals</string>
+    <string name="abc_programme">ABC Programme</string>
+    <string name="rescues_cases">Rescues Cases</string>
+    <string name="incident_section">Incident Section:</string>
+    <string name="tracker_section">Tracker Section:</string>
+    <string name="newsfeed_section">Newsfeed Section:</string>
+    <string name="donate_section">Donate Section:</string>
+    <string name="about_us_section">About Us Section :</string>
+    <string name="contact_us_section">Contact Us Section:</string>
+    <string name="_1_in_this_section_you_can_send_multiple_images_maximum_5_of_an_injured_animal_by_your_camera_or_gallery">1. In this section, you can send multiple images (maximum 5) of an injured animal by your camera or gallery.</string>
+    <string name="_2_you_have_to_wait_until_your_current_location_is_not_shown_in_the_map">2. You have to wait until your current location is not shown in the map.</string>
+    <string name="_3_you_may_add_description_in_the_description_box">3. You may add description in the description box.</string>
+    <string name="_1_in_this_section_you_may_see_the_status_of_reported_incident_that_you_have_sent">1. In this section, you may see the status of reported incident that you have sent.</string>
+    <string name="_2_you_may_click_on_the_reported_incident_and_see_the_details_of_that_incident">2. You may click on the reported incident and see the details of that incident.</string>
+    <string name="_3_you_may_download_the_images_that_you_have_sent_and_see_them_in_your_internal_storage">3. You may download the images that you have sent and see them in your internal storage.</string>
+    <string name="for_more_information_on_the_different_parts_of_this_application_touch_one_of_the_images_below">For more information on the different parts of this application, touch one of the images below:</string>
+    <string name="_1_in_this_section_you_can_take_glimpse_of_the_news_related_to_jeev_aashraya">1. In this section, you can take glimpse of the news related to Jeev Aashraya.</string>
+    <string name="_2_you_can_see_images_and_description_by_clicking_more_option">2. You can see images and description by clicking more option.</string>
+    <string name="through_this_section_you_can_support_jeev_aashraya_by_donating_money">Through this section you can support \'Jeev Aashraya\' by donating money.</string>
+    <string name="in_this_section_you_can_know_more_about_jeev_aashraya">In this section, you can know more about Jeev Aashraya.</string>
+    <string name="_1_in_this_section_you_can_directly_contact_us">1. In this section, you can directly contact us.</string>
+    <string name="_2_you_can_also_send_your_queries_we_will_respond_at_the_earliest">2. You can also send your queries. We will respond at the earliest.</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyAgDf11UgNXU2Vv1i5sLhyHkvY6PoQk6ig
+    </string>
+    <string name="please_select_an_image">Please Select an Image</string>
+    <string-array name="donate_category">
+        <item>Select Category For Donation</item>
+        <item>Calcium</item>
+        <item>Multivitamins</item>
+        <item>Dewormers</item>
+        <item>Anti tick Shampoo</item>
+        <item>Anti tick Spray</item>
+        <item>Medicated Shampoo</item>
+        <item>Liver Tonics</item>
+        <item>Digestive Support</item>
+        <item>Joint Support</item>
+    </string-array>
+
+    <string-array name="type_category">
+        <item>Select Case Type</item>
+        <item>Robbery</item>
+        <item>Traffic Jam</item>
+        <item>Fighting</item>
+        <item>Molestation</item>
+        <item>Terrorism</item>
+        <item>Bribe</item>
+        <item>Murder</item>
+        <item>Accident</item>
+        <item>Kidnapping</item>
+    </string-array>
+
+
+</resources>

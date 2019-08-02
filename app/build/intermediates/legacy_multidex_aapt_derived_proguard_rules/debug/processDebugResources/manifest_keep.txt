@@ -1,0 +1,4 @@
+# Referenced at C:\Users\Admin\AndroidStudioProjects\IncidentReporting\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:45
+-keep class android.support.v4.app.CoreComponentFactory { <init>(); }
+# Referenced at C:\Users\Admin\AndroidStudioProjects\IncidentReporting\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:45
+-keep class com.fgiet.incidentreporting.Skip { <init>(); }

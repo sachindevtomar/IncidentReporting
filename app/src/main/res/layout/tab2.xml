@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fgiet.incidentreporting.Users.Tab1"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/bgColor">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Name"
+        android:visibility="gone"
+        android:inputType="textPersonName"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:layout_below="@+id/name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
+
+
+
+
+    <ImageButton
+        android:id="@+id/btn_choose_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/phone"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_ic_add_a_photo_white_24dp"
+        android:scaleType="fitStart"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_choose_image"
+        android:layout_marginTop="0dp"
+        android:paddingTop="15dp"
+        android:orientation="horizontal"
+        android:id="@+id/linear">
+
+        <FrameLayout
+            android:id="@+id/frame1"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/customView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@color/authui_colorActivated" />
+
+            <ImageButton
+                android:id="@+id/button1"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right|top"
+                android:layout_marginTop="-8dp"
+                android:layout_marginRight="-6dp"
+                app:srcCompat="@drawable/ic_cancel_black_24dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame2"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/customView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@color/authui_colorActivated" />
+
+            <ImageButton
+                android:id="@+id/button2"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="-8dp"
+                android:layout_marginRight="-6dp"
+                android:layout_gravity="right|top"
+                app:srcCompat="@drawable/ic_cancel_black_24dp" />
+        </FrameLayout>
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/frame3"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/customView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@color/authui_colorActivated" />
+
+            <ImageButton
+                android:id="@+id/button3"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="-8dp"
+                android:layout_marginRight="-6dp"
+                android:layout_gravity="right|top"
+                app:srcCompat="@drawable/ic_cancel_black_24dp" />
+        </FrameLayout>
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/frame4"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/customView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@color/authui_colorActivated" />
+
+            <ImageButton
+                android:id="@+id/button4"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="-8dp"
+                android:layout_marginRight="-6dp"
+                android:layout_gravity="right|top"
+                app:srcCompat="@drawable/ic_cancel_black_24dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame5"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/customView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@color/authui_colorActivated" />
+
+            <ImageButton
+                android:id="@+id/button5"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="-8dp"
+                android:layout_marginRight="-6dp"
+                android:layout_gravity="right|top"
+                app:srcCompat="@drawable/ic_cancel_black_24dp" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@id/linear"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:weightSum="1">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="169dp">
+
+
+        </com.google.android.gms.maps.MapView>
+
+        <!--  <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_above="@+id/desc"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        tools:context="com.learn2crack.skip.MapsActivity" /> -->
+
+        <EditText
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/map"
+            android:layout_marginBottom="21dp"
+            android:ems="10"
+            android:hint="Description (Optional)"
+            android:inputType="textMultiLine"
+            android:padding="5dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="5dp"
+            android:layout_weight="1.34"
+            app:srcCompat="@android:drawable/ic_dialog_email" />
+
+
+        <!--
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/inputColor"
+                    android:text="Send"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="18sp" />  -->
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+

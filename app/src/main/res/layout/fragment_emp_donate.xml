@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/input_output">
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            />
+        </LinearLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/layout_donate_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/bg1_hint"
+            app:counterEnabled="true"
+            app:counterMaxLength="20"
+            android:layout_marginTop="10dp"
+            app:counterTextAppearance="@style/CounterStyle"
+            app:counterOverflowTextAppearance="@style/CounterOverStyle">
+
+            <EditText
+                android:id="@+id/emp_donate_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter Name of Medicine or Food"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:textColor="@color/bg1"
+                android:textColorHint="@color/bg1_hint"
+                android:textSize="16sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/layout_donate_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/bg1_hint"
+            app:counterEnabled="true"
+            app:counterMaxLength="20"
+            app:counterTextAppearance="@style/CounterStyle"
+            app:counterOverflowTextAppearance="@style/CounterOverStyle">
+
+            <EditText
+                android:id="@+id/emp_donate_desc"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter Quantity (Ex. 100 tabs*4)"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:textColor="@color/bg1"
+                android:textColorHint="@color/bg1_hint"
+                android:textSize="16sp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="10"
+            android:id="@+id/emp_donate_img"
+            android:background="@drawable/button_background1"
+            app:srcCompat="@drawable/ic_add_a_photo_white_24dp"
+            android:scaleType="fitCenter"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="4"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Price"
+                android:inputType="number"
+                android:id="@+id/emp_donate_price"/>
+        </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/emp_donate_send"
+            android:text="Send"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

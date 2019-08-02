@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background ="@color/colorPrimary"
+    >
+
+    <group
+        android:id="@+id/first" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/selector_ic_home_black_24dp"
+            android:title="@string/report_an_incident"
+            />
+
+        <item
+            android:id="@+id/nav_newsfeed"
+            android:icon="@drawable/selector_ic_art_track_black_24dp"
+            android:title="@string/newsfeed" />
+
+        <item
+            android:id="@+id/nav_nearbyplaces"
+            android:icon="@drawable/selector_ic_monetization_on_black_24dp"
+            android:title="@string/nearby_places" />
+
+    </group>
+<group
+    android:id="@+id/second" android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_help"
+        android:icon="@drawable/selector_ic_help_black_24dp"
+        android:title="@string/help" />
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/selector_ic_share_black_24dp"
+        android:title="@string/share"
+        />
+</group>
+</menu>
