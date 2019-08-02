@@ -44,7 +44,7 @@ It ia an online reporting android application. It contains basically 3 types of 
 
 <table >
   <tr>
-    <th>![image](.attachments/IR1.png)</th>
+    <th><img src=".attachments/IR2.png" alt="Screenshot" width="300" height="500"></th>
     <th>![image](.attachments/IR2.png)</th> 
   </tr>
   <tr>
