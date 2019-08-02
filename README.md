@@ -40,4 +40,39 @@ It ia an online reporting android application. It contains basically 3 types of 
 4. Voice typing is also available. 
 5. During signup, we verify the Emails so one can't register through a fake email.
 
+## Screenshots
 
+<table >
+  <tr>
+    <th>![image](.attachments/IR1.png)</th>
+    <th>![image](.attachments/IR2.png)</th> 
+  </tr>
+  <tr>
+    <td>![image](.attachments/IR3.png)</td>
+    <td>![image](.attachments/IR4.png)</td>
+  </tr>
+  <tr>
+    <th>![image](.attachments/IR5.png)</th>
+    <th>![image](.attachments/IR6.png)</th> 
+  </tr>
+  <tr>
+    <td>![image](.attachments/IR7.png)</td>
+    <td>![image](.attachments/IR8.png)</td>
+  </tr>
+  <tr>
+    <th>![image](.attachments/IR9.png)</th>
+    <th>![image](.attachments/IR10.png)</th> 
+  </tr>
+  <tr>
+    <td>![image](.attachments/IR11.png)</td>
+    <td>![image](.attachments/IR12.png)</td>
+  </tr>
+  <tr>
+    <th>![image](.attachments/IR13.png)</th>
+    <th>![image](.attachments/IR14.png)</th> 
+  </tr>
+  <tr>
+    <td>![image](.attachments/IR15.png)</td>
+    <td>![image](.attachments/IR16.png)</td>
+  </tr>
+</table>
