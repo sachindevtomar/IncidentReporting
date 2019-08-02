@@ -44,35 +44,31 @@ It ia an online reporting android application. It contains basically 3 types of 
 
 <table >
   <tr>
+    <th><img src=".attachments/IR1.png" alt="Screenshot" width="300" height="500"></th>
     <th><img src=".attachments/IR2.png" alt="Screenshot" width="300" height="500"></th>
-    <th>![image](.attachments/IR2.png)</th> 
+    <th><img src=".attachments/IR3.png" alt="Screenshot" width="300" height="500"></th>
   </tr>
   <tr>
-    <td>![image](.attachments/IR3.png)</td>
-    <td>![image](.attachments/IR4.png)</td>
+    <th><img src=".attachments/IR4.png" alt="Screenshot" width="300" height="500"></th>
+    <th><img src=".attachments/IR5.png" alt="Screenshot" width="300" height="500"></th>
+    <th><img src=".attachments/IR6.png" alt="Screenshot" width="300" height="500"></th>
   </tr>
   <tr>
-    <th>![image](.attachments/IR5.png)</th>
-    <th>![image](.attachments/IR6.png)</th> 
+    <th><img src=".attachments/IR7.png" alt="Screenshot" width="300" height="500"></th>
+    <th><img src=".attachments/IR8.png" alt="Screenshot" width="300" height="500"></th>
+    <th><img src=".attachments/IR9.png" alt="Screenshot" width="300" height="500"></th>
   </tr>
   <tr>
-    <td>![image](.attachments/IR7.png)</td>
-    <td>![image](.attachments/IR8.png)</td>
+    <th><img src=".attachments/IR10.png" alt="Screenshot" width="300" height="500"></th>
+    <th><img src=".attachments/IR11.png" alt="Screenshot" width="300" height="500"></th>
+    <th><img src=".attachments/IR12.png" alt="Screenshot" width="300" height="500"></th>
   </tr>
   <tr>
-    <th>![image](.attachments/IR9.png)</th>
-    <th>![image](.attachments/IR10.png)</th> 
+    <th><img src=".attachments/IR13.png" alt="Screenshot" width="300" height="500"></th>
+    <th><img src=".attachments/IR14.png" alt="Screenshot" width="300" height="500"></th>
+    <th><img src=".attachments/IR15.png" alt="Screenshot" width="300" height="500"></th>
   </tr>
   <tr>
-    <td>![image](.attachments/IR11.png)</td>
-    <td>![image](.attachments/IR12.png)</td>
-  </tr>
-  <tr>
-    <th>![image](.attachments/IR13.png)</th>
-    <th>![image](.attachments/IR14.png)</th> 
-  </tr>
-  <tr>
-    <td>![image](.attachments/IR15.png)</td>
-    <td>![image](.attachments/IR16.png)</td>
+    <th><img src=".attachments/IR16.png" alt="Screenshot" width="300" height="500"></th>
   </tr>
 </table>
